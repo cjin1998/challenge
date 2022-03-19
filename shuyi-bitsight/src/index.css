@@ -1,0 +1,58 @@
+body {
+  margin: 2%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.updateButton {
+  font-size: 20px;
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+
+  background-color: rgb(223, 217, 217, 0.7);
+  padding: 10px 15px 10px 15px;
+
+  box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04),
+    0 3px 6px 0 rgba(25, 32, 36, 0.16);
+}
+
+.updateButton:hover {
+  background-color: rgb(84, 170, 252, 0.7);
+  cursor: pointer;
+}
+
+table,
+th,
+td {
+  border: 0.6px solid rgb(145, 143, 143);
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 15px;
+}
+
+td {
+  padding: 10px 30px 10px 15px;
+}
+
+tr:hover {
+  background-color: rgb(240, 236, 236, 0.5);
+}
+
+a {
+  color: black;
+}
