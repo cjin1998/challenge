@@ -61,7 +61,7 @@ export default function App() {
   
 
 //intialize request
-  const octokit = new Octokit({ auth: `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` });
+  const octokit = new Octokit();
 
   //function to refresh Repository
   async function refreshRepos() {

@@ -5,7 +5,7 @@ import Spinner from '../spinner.gif'
 
 export default function Followers(props) {
 
-    const octokit = new Octokit({ auth: `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` });
+    const octokit = new Octokit();
 
     const data = props.data
 
