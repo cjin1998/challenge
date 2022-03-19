@@ -12,8 +12,6 @@ export default function Followers(props) {
     const [followers, setFollowers] = useState(false)
     const [is_loading, setIs_loading] = useState(false)
 
-    const MINUTE_MS = 120000;
-
     //get followers on load
     useEffect(() => {
          
@@ -22,6 +20,8 @@ export default function Followers(props) {
     }, [])
     
     //get followers every two minutes
+    const MINUTE_MS = 120000;
+
     useEffect(() => {
     const interval = setInterval(() => {
         getFollowerCt()
